@@ -30,7 +30,6 @@ function App() {
     let team = data.getTeam.team;
     if(terms === true && newTeamMember.length > 0) {
       team.push(newTeamMember);
-      localStorage.setItem("members", JSON.stringify(newTeamMember))
       setNewTeamMember("");
       setEmail("");
     } else {

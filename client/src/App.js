@@ -38,7 +38,7 @@ function App() {
   }
 
   const handleTerms = () => {
-    console.log(terms);
+    console.log(true ? terms === false : false);
   }
 
   return (

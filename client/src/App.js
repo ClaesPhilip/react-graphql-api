@@ -38,6 +38,7 @@ function App() {
   }
 
   const handleTerms = () => {
+    //FATTADE INTE VARFÖR LOGGEN VISA FALSE NÄR DET VAR TRUE, SÅ FICK BLI SÅ HÄR, EN LITEN FULING.
     console.log(true ? terms === false : false);
   }
 
